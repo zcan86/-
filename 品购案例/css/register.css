@@ -1,0 +1,117 @@
+/* 版心 */
+.w{
+    width: 1200px;
+    margin:0 auto;
+}
+header{
+    height: 120px;
+    border-bottom: 2px solid #c81623;
+}
+.registerarea{
+    height: 522px;
+    border:1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3{
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.login{
+    float:right;
+    font-size: 14px;
+}
+.login a{
+    color: #c81623;
+}
+.reg_form{
+    width: 600px;
+    margin: 50px auto 0;
+}
+.reg_form ul li{
+    margin-top: 20px;
+}
+.reg_form ul li label{
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.error{
+    color: #c81623;
+}
+.error_icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 2px;
+    /* 错误输入的图片，随便弄个替代 */
+    background: url() no-repeat;
+    margin-top: -2px;
+}
+.success{
+    color:green;
+}
+.success_icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 2px;
+    /* 正确输入的图片，随便弄个替代 */
+    background: url() no-repeat;
+    margin-top: -2px;
+}
+.reg_form ul li input{
+    border:1px solid #ccc;
+}
+.safe{
+    padding-left: 170px;
+}
+.safe em{
+    margin: 0 2px;
+    padding: 0 12px;
+    color:#fff
+}
+.ruo{
+    background-color: #de1111;
+}
+.zhong{
+    background-color: #40b83f;
+}
+.qiang{
+    background-color: #f79100;
+}
+.agree{
+    padding-left: 95px;
+}
+.agree input{
+    vertical-align: middle;
+}
+.agree a{
+    color: rgb(34, 62, 173);
+}
+.btn{
+    margin: 30px 0 0 70px;
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color:#fff
+}
+.mod_copyright
+{
+    padding-top: 20px;
+    text-align: center;
+}
+.links{
+    margin-bottom: 15px;
+}
+.copyright{
+    line-height: 20px;
+}
+.mod_copyright .links a{
+    margin:0 3px;
+}

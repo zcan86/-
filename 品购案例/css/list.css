@@ -1,0 +1,53 @@
+/* 列表页独有 */
+.sk{
+    position: absolute;
+    border-left: 1px solid #c81523;
+    top: 40px;
+    left: 270px;
+}
+.sk_list{
+    float: left;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li a{
+    display: block;
+    line-height: 47px;
+    padding:0 30px;
+    font-size: 16px;
+    font-weight: 700px;
+    color: #000;
+}
+.sk_con{
+    float: left;
+}
+.sk_con li{
+    float: left;
+}
+/*  若位置不正确可能是上面影响，若溢出可hidden*/
+.nav{
+    overflow: hidden;
+}
+.sk_con ul li a{
+    display: block;
+    line-height: 49px;
+    padding:0 20px;
+    font-size: 14px;
+    /* 行高大于高度可以让文字偏下 */
+}
+.sk_con ul li:last-child a::after{
+    content:'\e901';
+    font-family: 'icomoon';
+}
+.sk_bd ul li{
+    float: left;
+    width: 267px;
+    height: 428px;
+    border: 1px solid transparent;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.sk_bd ul li:hover{
+    border: 1px solid #c81523;
+}
