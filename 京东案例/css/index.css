@@ -1,0 +1,84 @@
+.w {
+    width: 630px;
+    margin: 0 auto;
+}
+
+.hd {
+    width: 630px;
+    height: 170px;
+    border-top: 4px solid rgb(151, 37, 37);
+    border-radius: 10px;
+}
+
+.p1 {
+    margin-top: 2px;
+    margin-left: 20px;
+    width: 605px;
+    height: 166px;
+    text-align: center;
+    vertical-align: middle;
+    background: url(../1.png);
+}
+
+.p1 ul li {
+    float: left;
+    /*其他内容 */
+}
+
+.bd {
+    background-color: rgb(248, 247, 248);
+    width: 630px;
+}
+.bd ul{
+    width: 630px;
+}
+.bd ul li{
+    background-color: rgb(248, 247, 248);
+    position: relative;
+    float: left;
+    width: 122px;
+    height: 88px;
+    text-align: center;
+}
+.bd ul li i{
+    margin-top: 2px;
+    display:inline-block;
+    height: 65px;
+    width: 90px;
+    margin-left: 25px;
+}
+.bd ul li:nth-child(1) i{
+    background: url(../2.png) no-repeat -3px 0px;
+}
+.bd ul li:nth-child(2) i{
+    background: url(../2.png) no-repeat -122px 5px;
+}
+.bd ul li:nth-child(3) i{
+    background: url(../2.png) no-repeat -240px 0px;
+}
+.bd ul li:nth-child(4) i{
+    background: url(../2.png) no-repeat -360px 0px;
+}
+.bd ul li:nth-child(5) i{
+    background: url(../2.png) no-repeat -480px 0px;
+}
+.bd ul li:nth-child(6) i{
+    background: url(../2.png) no-repeat -3px -99px;
+}
+.bd ul li:nth-child(7) i{
+    background: url(../2.png) no-repeat -122px -99px;
+}
+.bd ul li:nth-child(8) i{
+    background: url(../2.png) no-repeat -240px -99px;
+}
+.bd ul li:nth-child(9) i{
+    background: url(../2.png) no-repeat -360px -99px;
+}
+.bd ul li:nth-child(10) i{
+    background: url(../2.png) no-repeat -480px -99px;
+}
+.bd ul li p{
+    display: block;
+    padding-left: 20px;
+    font-size: 5px;
+}
