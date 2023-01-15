@@ -1,0 +1,74 @@
+<!--
+ * @Author: error: git config user.name && git config user.email & please set dead value or install git
+ * @Date: 2023-01-15 11:40:48
+ * @LastEditors: error: git config user.name && git config user.email & please set dead value or install git
+ * @LastEditTime: 2023-01-15 13:55:03
+ * @FilePath: \微博页面项目\index.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新浪微博</title>
+    <!-- 引入我们初始化样式 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入主要部分样式 -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- 添加favicon标签,素材是京东的图标，懒得换了 -->
+    <link rel="shortcut icon" href="logo.jpg" />
+</head>
+<body>
+    <!-- 快捷导航模块制作 -->
+    <div class="shortcut w">
+        <!-- 搜索模块制作 -->
+         <div class="search">
+            <form action="search">
+                <input type="text" name="search" placeholder="大家正在搜：苹果耳机盒子不要丢">
+            </form>
+         </div>
+         <!-- 分类区制作 -->
+         <div class="nav">
+            <ul>
+                <li clas="obvious"><a href="#">发现</a></li>
+                <li><a href="#">视频</a></li>
+                <li><a href="#">娱乐</a></li>
+                <li><a href="#">体育</a></li>
+                <li><a href="#">游戏</a></li>
+            </ul>
+         </div>
+         <!-- 底部小白块制作 -->
+         <div class="white"></div>
+    </div>
+    <!-- 热搜盒子制作 -->
+    <div class="hot_hd w">
+        <div></div>
+        <p>微博热搜</p>
+    </div>
+    <div class="hot_bd w">
+        <div class="fl">
+            <ul>
+                <li>苍兰诀&nbsp;投票<div class="new">新</div></li>
+                <li>黄轩同款一加11开售</li>
+                <!-- 这里本来想用文本溢出显示省略号，结果文本不溢出。 -->
+                <li>一家8口到三亚过...<div class="hot">热</div></li>
+                <li>如何评价惠英红穿...</li>
+                <li>家属回应一家四口...</li>
+                <li>黄子稻试穿女士...<div class="hot">热</div></li>
+            </ul>
+        </div>
+        <div class="fr">
+            <ul>
+                <li>春楠拍的赵丽颖An...</li>
+                <li>网红假装在国外</li>
+                <li>苹果耳机盒子不要丢</li>
+                <li>向风而行<div class="hot">热</div></li>
+                <li>刘美含&nbsp;圆满炸了<div class="new else">新</div></li>
+                <li><a href="#">更多热搜</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
